@@ -11,8 +11,9 @@ setup(
     long_description= long_description,
     url = "https://github.com/KiranGangadhar01/simple-dvc-project",
     author_email = "kiran.gangadhar.01@gmail.com",
-    package_dir = {"": "src"},
-    packages = find_packages(where="src"),
+    # package_dir = {"": "src"},
+    # packages = find_packages(where="src"),
+    packages = ["src"],
     license="GNU",
     python_requires = ">=3.6",
     install_requires = [
